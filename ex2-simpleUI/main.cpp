@@ -22,7 +22,6 @@ int main() {
   HelloWorldUI helloUI;
   app.SetUiPresenter(&helloUI);
 
-  app.Initialize();
   app.Run();
   
   return 0;

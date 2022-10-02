@@ -116,8 +116,8 @@ int main() {
   windowProps.width = 1280;
   windowProps.height = 960;
   windowProps.fullscreen = true;
+  app.DefineWindowProperties(windowProps);
 
-  app.Initialize(windowProps);
   app.Run();
   
   return 0;

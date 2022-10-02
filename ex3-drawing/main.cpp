@@ -24,7 +24,6 @@ int main() {
   SimpleTriangleDrawer drawer;
   app.SetAppRenderer(&drawer);
   
-  app.Initialize();
   app.Run();
   
   return 0;
